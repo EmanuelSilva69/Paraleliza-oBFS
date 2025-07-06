@@ -1,0 +1,18 @@
+digraph {
+	rankdir=LR size="10,5"
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q0 -> q1
+	q2 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q2
+	q2 [fillcolor=lightblue shape=circle style=filled]
+	q2 -> q2
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q2 -> q1
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q0
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q0 -> q0
+	q_accept [fillcolor=lightgreen shape=circle style=filled]
+	q0 -> q_accept
+}

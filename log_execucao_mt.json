@@ -1,0 +1,19 @@
+{
+    "Palindromo": {
+        "tempo": 0.0345,
+        "status": "ACEITA",
+        "saida": "Estados visitados: q0 -> q1 -> q2 -> q2 -> q1 -> q0 -> q0 -> q_accept",
+        "caminho": [
+            "q0",
+            "q1",
+            "q2",
+            "q2",
+            "q1",
+            "q0",
+            "q0",
+            "q_accept"
+        ],
+        "img": "Palindromo_caminho.png",
+        "anim": "Palindromo_animacao.png"
+    }
+}
