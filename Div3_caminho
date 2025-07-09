@@ -1,6 +1,36 @@
 digraph {
 	rankdir=LR size="10,5"
 	q0 [fillcolor=lightblue shape=circle style=filled]
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q0 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q2 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q2
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q2 -> q3
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q3
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q3
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q3
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q3
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q3
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q0
 	q4 [fillcolor=lightblue shape=circle style=filled]
 	q0 -> q4
 	q4 [fillcolor=lightblue shape=circle style=filled]
@@ -11,8 +41,38 @@ digraph {
 	q4 -> q4
 	q4 [fillcolor=lightblue shape=circle style=filled]
 	q4 -> q4
-	q4 [fillcolor=lightblue shape=circle style=filled]
-	q4 -> q4
-	q5 [fillcolor=lightgreen shape=circle style=filled]
+	q5 [fillcolor=lightblue shape=circle style=filled]
 	q4 -> q5
+	q6 [fillcolor=lightblue shape=circle style=filled]
+	q5 -> q6
+	q6 [fillcolor=lightblue shape=circle style=filled]
+	q6 -> q6
+	q6 [fillcolor=lightblue shape=circle style=filled]
+	q6 -> q6
+	q6 [fillcolor=lightblue shape=circle style=filled]
+	q6 -> q6
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q6 -> q0
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q0 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q1 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q1
+	q2 [fillcolor=lightblue shape=circle style=filled]
+	q1 -> q2
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q2 -> q3
+	q3 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q3
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q3 -> q0
+	q4 [fillcolor=lightblue shape=circle style=filled]
+	q0 -> q4
+	q5 [fillcolor=lightblue shape=circle style=filled]
+	q4 -> q5
+	q0 [fillcolor=lightblue shape=circle style=filled]
+	q5 -> q0
+	q_accept [fillcolor=lightgreen shape=circle style=filled]
+	q0 -> q_accept
 }
